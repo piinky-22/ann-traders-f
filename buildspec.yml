@@ -20,4 +20,6 @@ phases:
       - echo Build complete
 artifacts:
   files:
-    - '**/*'
+    - public/**/*
+    - src/**/*
+    - package.json
